@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.appbarapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="Записная книжка"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_card_client"
+        android:orderInCategory="100"
+        android:title="Монитор жизненых показателей"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_task_time"
+        android:orderInCategory="100"
+        android:title="Время выполнения задач"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_endless"
+        android:orderInCategory="100"
+        android:title="Бесконечный переход"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sub"
+        android:orderInCategory="100"
+        android:title="Регистрация"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_muted_exclusive_check_box"
+        android:orderInCategory="100"
+        android:title="Взаимоисключающе CheckBox"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logo"
+        android:orderInCategory="100"
+        android:title="Logo"
+        app:showAsAction="never" />
+
+</menu>
